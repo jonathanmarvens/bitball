@@ -51,5 +51,5 @@
     "prepublish": "npm run build",
     "test": "babel-tape-runner test.js"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
