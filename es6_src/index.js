@@ -44,8 +44,12 @@ export class BitSet {
       return
     case true:
       this.set(bitIndex, false, allowIndexOverflow)
+
+      break
     case false:
       this.set(bitIndex, true, allowIndexOverflow)
+
+      break
     default:
       assert(false) // This block should never be reached!
     }
